@@ -1,0 +1,153 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+
+}
+
+.about{
+width: 100%;
+padding: 100px 0px;
+
+background-color: #4A9AB8;
+
+ }   
+ 
+
+ .section-intro{
+   margin-bottom:40px ;
+ }
+ .section-intro .divider{
+height: 2px;
+width: 70px;
+background: linear-gradient(to right,#4A9AB8);
+ }
+
+ img{width: 100%;}
+ .services .sevice-img
+
+ form .form-control{
+height: 54px;
+border-radius: 0;
+background: transparent;
+ }
+ container .about{
+   background-color: #4A9AB8;
+ }
+ .bg{
+   background-image: url(1.jpg);
+   height: 620px;
+   position: relative;
+   background-position:center ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+ }
+ .services{
+   background-color:#004A6F;
+ }
+ .CONTACT{
+  background-color:#033153;
+  align-items:center;
+  justify-content: center;
+ }
+ .last{
+  background-color:#033153;
+ }
+ .EXHIBITION{
+   background-color:#004A6F;
+   
+ }
+ img{
+   width: 100%;
+ }
+ .project{
+   position: relative;
+   z-index: 2;
+   overflow: hidden;
+
+ }
+ .project .overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.85);
+   padding:30px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   transition:all 0.4s ease;
+   opacity: 0;
+ }
+ .project img{
+  transition:all 0.4s ease;
+ }
+ .project:hover .overlay{
+opacity: 1;
+ }
+ .project:hover img{
+   transform: scale(1.1);
+ }
+ .container-fluid{
+   background-color: #33789A;
+ }
+ #work{
+   background-color: #004A6F;
+ }
+ .exhibtion h3{
+   color: white;
+ }
+ .exhibtion .image-wrappen{
+   overflow: hidden;
+   border-radius: var(--border-radius);
+ }
+ .exhibtion .image-wrappen img{
+  border-radius: var(--border-radius);
+  transform: scale(1.1);
+  transition: all 0.45 ease;
+}
+.exhibtion:hover .image-wrappen img{
+transform: scale(1);
+}
+ 
+ .link-arrow.link-dark:hover{
+color: white;
+ }
+ .servic{
+   border-radius: 4rem;
+   position: center;
+  
+ }
+ video {
+  width: 170%;
+  height: auto;
+}
+
+.marquee {
+  width: 100%;
+  height:20vh;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color:#033153;
+  color: white;
+  text-size-adjust: 30px;
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling 10s linear infinite;
+  font-size: 30px;
+}
+
+@keyframes scrolling {
+  0%{
+      transform: translateX(80vw);
+  }
+  100%{transform: translateX(-180vw);}
+}
+
+
